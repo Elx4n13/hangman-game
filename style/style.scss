@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    .game-container{
+        display: flex;
+        border:1px dashed white;
+        width: 60%;
+        margin: auto;
+        margin-top: 40px;
+        .left{
+            width: 50%;
+            padding: 10px;
+            img{
+                width: 100%;
+            }
+        }
+        .right{
+            border-left: 1px dashed white;
+            width: 50%;
+            text-align: center;
+            font-size: 1.3rem;
+            p{
+                margin-top: 10px;
+            }
+            .word{
+                margin: 20px 0;
+                font-size: 2rem;
+                font-weight: bold;
+                color: greenyellow;
+                letter-spacing: 15px;
+            }
+            .guesses{
+                display: block;
+                margin-top: 10px;
+                color: red;
+                font-size: 1.5rem;
+                letter-spacing: 3px;
+            }
+        }
+    }
+}
